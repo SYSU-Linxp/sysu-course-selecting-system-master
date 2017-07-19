@@ -1,2 +1,2 @@
-# sysu-subject-system-master
+# sysu-course-selecting-system-master
 SYSU Innovative training program
