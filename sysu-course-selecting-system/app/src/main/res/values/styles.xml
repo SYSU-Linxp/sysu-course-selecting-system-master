@@ -43,4 +43,26 @@
         <item name="android:layout_weight">13</item>
     </style>
 
+    <style name="SettingViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/colorBackGround</item>
+    </style>
+
+    <style name="meItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_large_top_margin</item>
+        <item name="android:textSize">@dimen/middle_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="meViewLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginRight">@dimen/activity_small_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_small_margin</item>
+        <item name="android:background">@color/backLine</item>
+    </style>
 </resources>
