@@ -1,0 +1,34 @@
+Course:
+	courseId : string
+	cname: string
+	tname: string
+	cchatrecords : CChatRecord
+	cevaluations : CEvaluation
+
+-----------------------------------
+CChatRoom:
+    ccrId: long
+    courseId: long (fk)
+    stuIds: long (fk)
+    crecords: CRecord
+
+CRecord:
+    stuId: long
+    content: string
+    time: date
+-----------------------------------
+
+CEvaluation:
+    cevlId : long
+    courseId: long (fk)
+    stuId: long (fk)
+    attendance: float
+    interst: float
+    hwamount: float
+    hwhard: float
+    
+    
+Notice:
+    course_Id: string (fk)
+    content: string
+    

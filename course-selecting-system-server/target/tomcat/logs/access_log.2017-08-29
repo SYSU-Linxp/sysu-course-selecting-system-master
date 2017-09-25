@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [29/Aug/2017:12:32:54 +0800] "GET /services/notice/notice HTTP/1.1" 200 312 http-bio-8080-exec-1 533
+0:0:0:0:0:0:0:1 - - [29/Aug/2017:15:24:46 +0800] "GET /services/carStation?_wadl HTTP/1.1" 200 560 http-bio-8080-exec-3 108
+0:0:0:0:0:0:0:1 - - [29/Aug/2017:15:24:48 +0800] "GET /services HTTP/1.1" 200 1126 http-bio-8080-exec-4 78
+0:0:0:0:0:0:0:1 - - [29/Aug/2017:15:24:48 +0800] "GET /services/?stylesheet=1 HTTP/1.1" 200 367 http-bio-8080-exec-7 5

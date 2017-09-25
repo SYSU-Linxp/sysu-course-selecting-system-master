@@ -1,0 +1,11 @@
+com\sysu\course\common\util\SysParameter.class
+com\sysu\course\service\IBasisService.class
+com\sysu\course\dao\IStationBasisDao.class
+com\sysu\course\dao\CNoticeDao.class
+com\sysu\course\service\impl\CNoticeServiceImpl.class
+com\sysu\course\entity\Notice.class
+com\sysu\course\service\CNoticeService.class
+com\sysu\course\common\util\Result.class
+com\sysu\course\restful\interceptor\AuthInterceptor.class
+com\sysu\course\entity\QueryDrvierDto.class
+com\sysu\course\service\impl\BasisServiceImpl.class
